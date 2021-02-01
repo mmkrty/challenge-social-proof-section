@@ -31,7 +31,7 @@ body {
 
 .container {
     margin:0 auto;
-    padding: 2.5rem 1rem;
+    padding: 1rem;
     
 }
 
@@ -75,11 +75,57 @@ body {
     margin-bottom: 0;
 }
 
+/* reviews */
+
+.review-card{
+    background-color: var(--pr-dark);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    margin: 1rem auto;
+    color: var(--nt-white);
+    line-height: 2;
+   
+}
+
+.customer-img{
+    margin-right: 1.5rem;
+    /* width: auto;
+    max-width:100%; */
+    /* width: 64px;
+    height: 64px; */
+    display: flex;
+    align-items: center;
+}
+
+.customer-img img {
+      width: 64px;
+    height: 64px;
+    max-width:100%;
+    border-radius: 100%;
+}
+
+
+
+
+.reviews-heading {
+    margin-bottom: 1.5rem;
+    display:flex;
+    font-weight: 700;
+    /* border: 1px solid var(--pr-dark); */
+}
+
+
+.customer-verification {
+    color: var(--pr-light);
+}
+
+
 
 /* attribute */
 .attribution {
     font-size: 11px;
     text-align: center;
+
   }
 
 
