@@ -24,7 +24,7 @@ body {
     url("images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  height: cover;
+  height: 100vh;
 }
 
 .container {
